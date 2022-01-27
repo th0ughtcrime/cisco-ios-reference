@@ -26,7 +26,7 @@
 | Configure a domain name | `Switch(config)# ip domain name cisco.com` |
 | Generate an encryption key | `Switch(config)# crypto key generate rsa general-keys modulus 1024` |
 | Create a local user | `Switch(config)# username Bob secret cisco` |
-| Create an admin user with privilege 15<br>and password 'secure' | `Router(config)# username admin1 privilege 15 secret secure` |
+| Create an admin user with privilege 15<br>and password 'secure' | `Switch(config)# username admin1 privilege 15 secret secure` |
 | Authenticate VTY logins against the local<br>user database | `Switch(config)# line vty 0 15`<br>`Switch(config-line)# login local` |
 
 ## Interfaces 
@@ -37,7 +37,7 @@
 | Show concise VLAN configuration | `Switch# show vlan brief` |
 | Show detailed VLAN configuration | `Switch# show vlan` |
 | Show IPv4 interface statistics | `Switch# show interfaces` |
-| Show the list of hops to target host | `Router# traceroute 10.1.1.10` |
+| Show the list of hops to target host | `Switch# traceroute 10.1.1.10` |
 | Set the default gateway | `Switch(config)# ip default-gateway 192.168.1.1` |
 | Configure a virtual interface | `Switch(config)# interface vlan 1`<br>`Switch(config-if)# description link to LAN`<br>`Switch(config-if)# ip address 192.168.1.2 255.255.255.0`<br>`Switch(config-if)# no shutdown` |
 | Disable DNS lookup | `Switch(config)# no ip domain-lookup` |
