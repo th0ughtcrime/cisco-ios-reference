@@ -8,7 +8,7 @@
 | Set a hostname | `Switch(config)# hostname S1` |
 | Set a banner message | `Switch(config)# banner motd #Authorized access only#` |
 | Show the running configuration | `Switch(config)# show running-config` |
-| Show the running configuration | `Switch(config)# show startup-config` |
+| Show the startup configuration | `Switch(config)# show startup-config` |
 | Save any configuration changes to the startup<br>configuration file | `Switch(config)# copy running-config startup-config` |
 | Undo all configuration changes by loading the<br>startup configuration file | `Switch(config)# copy startup-config running-config` |
 
