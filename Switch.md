@@ -44,4 +44,4 @@
 | Discover neighboring devices with CDP | `Switch# show cdp neighbors` |
 | Create and name a VLAN | `Switch(config)# vlan 20`<br>`Switch(config-vlan)# name student` |
 | Show switch port information | `Switch# show interfaces fa0/18 switchport` |
-| Assign a switch port to a VLAN | `Switch# configure terminal`<br>`Switch(config)# interface fa0/6`<br>`Switch(config-if)# switchport mode access`<br>`Switch(config-if)# switchport access vlan 20` |
+| Assign a switch port to a VLAN | `Switch(config)# interface fa0/6`<br>`Switch(config-if)# switchport mode access`<br>`Switch(config-if)# switchport access vlan 20` |
